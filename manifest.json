@@ -1,0 +1,14 @@
+{
+	"name": "S4B UA Fixer Test",
+	"version": "0.1.1",
+    "manifest_version": 2,
+	"description": "Test for UA fixing",
+	"homepage_url": "https://github.com/",
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": true
+    },
+"permissions": [
+    "*://*.lync.com/*","webRequest","webRequestBlocking"
+  ]
+}
